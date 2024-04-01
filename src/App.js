@@ -1,5 +1,4 @@
 import {useState, useEffect} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 const supabase = createClient('https://kncpxougvldubgtuqpyn.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtuY3B4b3VndmxkdWJndHVxcHluIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTA3NzIwNzcsImV4cCI6MjAyNjM0ODA3N30.r7Z0q1iWbLbmbOdhKKPgvZsT4JXstUKILfk1h0TMzX4')
@@ -68,7 +67,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <GetBooks />
         <RandomName />
         <div>
