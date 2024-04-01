@@ -68,6 +68,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <GetBooks />
+        <div>
         {isLoggedIn ? (
           <Button />
         ) : (
@@ -75,7 +76,6 @@ function App() {
         )}
         </div>
         <RandomName />
-        <div>
       </header>
     </div>
   );
