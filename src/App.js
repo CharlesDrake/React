@@ -69,6 +69,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <GetBooks />
+        <RandomName />
         <div>
         {isLoggedIn ? (
           <Button />
@@ -76,8 +78,6 @@ function App() {
           <p>Please login.</p>
         )}
         </div>
-        <GetBooks />
-        <RandomName />
       </header>
     </div>
   );
