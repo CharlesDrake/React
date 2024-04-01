@@ -68,14 +68,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <GetBooks />
-        <RandomName />
-        <div>
         {isLoggedIn ? (
           <Button />
         ) : (
           <p>Please login.</p>
         )}
         </div>
+        <RandomName />
+        <div>
       </header>
     </div>
   );
